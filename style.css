@@ -226,3 +226,28 @@ font-weight: 400;
     font-size: 12px;
     color: #333;
   }
+
+
+/*genjam section*/
+
+.description-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-container .content{
+     margin: 0 auto;
+     padding: 100px 50px 100px 550px;
+}
+
+.over-img{
+    display: flex;
+ margin: 0 auto;
+}
+
+.over-img .lit-pic{
+    position: relative;
+    flex-wrap: wrap;
+    margin-right: -100px;
+    margin-top: 350px; 
+}
