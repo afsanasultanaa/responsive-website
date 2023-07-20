@@ -3,6 +3,8 @@
 font-family: 'Work Sans', sans-serif;
 
 }
+
+/*Heading*/
 .container {
     width: 100%;
     min-height: 50%;
@@ -10,6 +12,8 @@ font-family: 'Work Sans', sans-serif;
     padding-right: 8%;
     box-sizing: border-box;
     overflow: hidden;
+    position: sticky;
+    box-shadow: 0 0 5px 0 #3C354F;
 
 }
 .navbar {
@@ -74,4 +78,86 @@ nav ul li a:hover{
 }
 .right {
     transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+}
+
+/*hero section*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    
+}
+
+.col-1{
+    padding: 0 50px 0 200px;
+    margin: 0 -10px 10px 0;
+    flex-basis: 50%;
+    position: left;
+    background-repeat: no-repeat;
+    background-image: url(images/Group\ 14.png);
+}
+
+.col-1 h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.grad-background {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.col-1 h1{
+    font-size: 95px;
+    margin-top: 0px;
+    font-weight: 800;
+
+}
+.col-1 ul{
+    list-style: none;
+    margin: -80px 0 10px -60px;
+    position:relative;
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-signin{
+    background-color: #F948B2;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 48px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.btn-2{
+    background-color: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 48px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+/* col-2 */
+
+.col-2 img{
+    width: 600px;
+height: 446px;
+flex-shrink: 0;
+padding: 0 200px 0 50px;
+margin: 0 10px -10px 0;
+}
