@@ -161,3 +161,47 @@ flex-shrink: 0;
 padding: 0 200px 0 50px;
 margin: 0 10px -10px 0;
 }
+
+/* about section */
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.about-img{
+    width: 868px;
+height: 489px;
+flex-shrink: 0;
+margin: 0 auto;
+}
+
+.about-section .grad-background{
+    text-align: right;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 auto;
+
+}
+.about-section .about-des{
+    align-items: center;
+    width:520px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.about-section .des-det{
+    color: #534C64;
+text-align: right;
+margin: 0 auto;
+font-size: 18px;
+font-weight: 400;
+}
+.about-section .btn-signin{
+    float: right;
+    margin: 0 auto;
+ }
+ 
