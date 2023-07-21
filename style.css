@@ -2,6 +2,7 @@
     font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
 
+
 }
 
 /*Heading*/
@@ -263,9 +264,7 @@ font-weight: 400;
     flex-wrap: wrap;
     margin-left: 100px;
     width: 710px;
-height: 650px;
-
-   
+    height: 650px;
 }
 
 .description-container2 .content{
@@ -326,4 +325,54 @@ height: 650px;
     font-size: 18px;
     font-weight: 550;
     margin-top: 20px;
+  }
+
+  /*icon-sec*/
+
+  .icon-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1 fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    vertical-align: middle;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: px;
+   
+  }
+  
+  img {
+    width: 40px;
+height: 40px;
+  }
+  
+  .text {
+    font-size: 16px; 
+  }
+  
+  .hover-button {
+    display: none; 
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+  }
+  
+  .item:hover .hover-button {
+    display: block;
+  }
+
+  /*footer*/
+ 
+  footer{
+    width: 1920px;
+    height: 536px;
+    background-color: #0B0223;
+  }
+  
+  footer{
+    padding: 50px 800px 50px 1000px;;
   }
