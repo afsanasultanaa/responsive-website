@@ -248,6 +248,82 @@ font-weight: 400;
 .over-img .lit-pic{
     position: relative;
     flex-wrap: wrap;
-    margin-right: -100px;
-    margin-top: 350px; 
+    margin-right: -150px;
+    margin-top: 380px; 
 }
+
+/*genjam 2*/
+
+.description-container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description-container2 .playon-img{
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    width: 710px;
+height: 650px;
+
+   
+}
+
+.description-container2 .content{
+    margin: 0 auto;
+    padding: 100px 50px 100px 50px;
+}
+
+
+/*career sec*/
+
+.career{
+    display: flex;
+    background-color: #FF42A5;
+    margin-top: 200px;
+    height: 680px;;
+    
+}
+
+.career .career-content{
+    padding: 100px;
+    width: 800px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.grid-container {
+    
+    padding: 0;
+    margin: 0;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:0;
+    
+   
+  }
+  
+  .column {
+    
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 0;
+   
+  }
+  
+  .item {
+    padding: 5px;
+    text-align: left;
+  }
+
+  .career .see-btn{
+    background-color: #ffffff;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 48px;
+    color: #F948B2;
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 20px;
+  }
